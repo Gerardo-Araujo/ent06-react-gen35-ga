@@ -1,0 +1,15 @@
+.container-formreview {
+    width: 500px;
+    font-size: 25px;
+     
+}
+.container-reserve-card {
+    width: 300px;
+    font-size: 1.2rem;
+    display: inline-block;
+    align-items: center;
+}
+    .reservation-list {
+   gap: 20px;
+   margin-left: 10px;
+    }

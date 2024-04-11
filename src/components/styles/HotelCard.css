@@ -1,0 +1,21 @@
+/**.container-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}*/
+.card {
+    width: 100%;
+    max-width: 260px;
+    border: 1px solid black;
+    border-radius: 0.8em;
+    overflow: hidden;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 1em;
+       
+}
+.car__img {
+    width: 100%;
+    height: 200px ;
+}

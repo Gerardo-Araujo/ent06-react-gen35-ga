@@ -1,0 +1,97 @@
+.hotel-detail-container {
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  
+  }
+  
+  .hotel-info {
+    max-width: 1000px;
+    width: 100%;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .hotel-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .hotel-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .image-slider {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .image-slider img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .hotel-location {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .hotel-location h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .hotel-location p {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .bx {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  
+  .form-reservation {
+    margin-top: 20px;
+  }
+  
+  .form-reservation input,
+  .form-reservation button {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-reservation input:hover,
+  .form-reservation button:hover {
+    background-color: #0056b3;
+  }
+  
+  .link-login {
+    margin-top: 20px;
+  }
+  
+  .link-login a {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  .link-login a:hover {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  

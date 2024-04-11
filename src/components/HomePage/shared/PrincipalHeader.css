@@ -1,0 +1,39 @@
+
+.principal-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #81cede;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  .nav-link-princ { 
+    color: blue;
+    font-size: 2em;
+  }
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  .princ__items {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .princ__item {
+    margin-left: 10px;
+  }
+  

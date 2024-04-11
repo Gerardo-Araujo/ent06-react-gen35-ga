@@ -1,0 +1,42 @@
+.contenedor-register {
+    width: 300px;
+    margin: 30px auto;
+    font-size: 1.2rem;
+  }
+  
+  .form-init {
+    padding: 10px;
+    background-color: #c5c2c2;
+    border-radius: 5px;
+  }
+  
+  .campo {
+    margin-bottom: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
