@@ -8,7 +8,7 @@ const FormReserve = ({hotelId}) => {
  
  const [ , , createBooking ] = useCrud()
  const submit = data => {
-  const url = 'https://hotels-api.academlo.tech/bookings'
+  const url = 'https://hotel-app-backend-4mb6.onrender.com/bookings'
   data.hotelId = Number(hotelId)
   
   console.log(data)

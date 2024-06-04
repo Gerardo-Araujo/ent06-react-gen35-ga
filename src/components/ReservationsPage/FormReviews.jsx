@@ -4,18 +4,17 @@ import "../../components/ReservationsPage/FormReviews.css"
 
 const FormReviews = ({reserveSelected, setReserveSelected}) => {
 
-    console.log(reserveSelected)
-
+   
     const {handleSubmit, reset, register } = useForm()
 
     const [ ,, createReviwe] =  useCrud()
     const submit =  data => {
-       const  url = 'https://hotels-api.academlo.tech/reviews'
+       const  url = 'https://hotel-app-backend-4mb6.onrender.com/reviews'
         data.hotelId = reserveSelected?.hotel.id
         data.rating = +data.rating
         createReviwe(url, data)
         setReserveSelected()
-
+        reset()
     }
 
   return (

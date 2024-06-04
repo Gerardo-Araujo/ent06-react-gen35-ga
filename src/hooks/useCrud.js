@@ -16,7 +16,7 @@ const useCrud = () => {
   const createApi = (url, data) => {
     axios.post(url, data, getConfigToken())
       .then(res => {
-        console.log(res.data)
+        
         setResponse(response ? [...response, res.data] : [res.data])
       })
       .catch(err => console.log(err))

@@ -22,7 +22,7 @@ const [fromTo, setFromTo ] = useState({
     setInputName(inputValue.current.value)
   }
 
-console.log(hotels)
+
 
 const cbfilter = hotelInfo => {
   // filter by name

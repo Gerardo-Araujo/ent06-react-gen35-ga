@@ -11,11 +11,11 @@ const ReservationsPage = () => {
     const [bookings, getBookings ,, deleteBooking] = useCrud() 
 
         useEffect(() => {
-            const url = 'https://hotels-api.academlo.tech/bookings'
+            const url = 'https://hotel-app-backend-4mb6.onrender.com/bookings'
             getBookings(url)
         }, [])
 
-    console.log(bookings)
+    
 
 
   return (

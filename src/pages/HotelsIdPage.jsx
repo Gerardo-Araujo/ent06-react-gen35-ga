@@ -11,7 +11,7 @@ const HotelsIdPage = () => {
 
   const {id} = useParams()
 
-  const url=`https://hotels-api.academlo.tech/hotels/${id}`
+  const url=`https://hotel-app-backend-4mb6.onrender.com/hotels/${id}`
   const [hotel , getHotel] = useFetch(url)
 
   useEffect(() => {

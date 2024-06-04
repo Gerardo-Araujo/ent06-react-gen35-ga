@@ -7,7 +7,7 @@ import "../../components/HomePage/shared/OtherHotels.css"
 
 const OtherHotels = ({ hotel} ) => {
 
-    const url = `https://hotels-api.academlo.tech/hotels?cityId=${hotel?.cityId}`
+    const url = `https://hotel-app-backend-4mb6.onrender.com/hotels?cityId=${hotel?.cityId}`
     const [ hotelsInCity, getHotelsInCity] = useFetch(url)
 
     useEffect(() => {
@@ -16,7 +16,7 @@ const OtherHotels = ({ hotel} ) => {
         }
     }, [hotel])
 
-console.log({hotel,hotelsInCity})
+
   return (
 
     <section className="otherhotel-container">
